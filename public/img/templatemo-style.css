@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(page-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container-div{
+    display: flex;
+
+}
+
+.side-bar{
+    background-color: rgb(161, 46, 94);
+    min-height: 100vh;
+    color: azure;
+    position: fixed;
+    
+}
+
+.side-bar .user-img{
+    border-radius: 90px;
+    margin-bottom: 7%;
+    width: 90px;
+    height: 90px;
+}
+
+.side-container{
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
+.side-container h3{
+    margin-bottom: 2%;
+    letter-spacing: 1.5px;
+}
+
+.side-container .side-nav-bar .second-list li a img{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 7px 7px 7px 7px;
+}
+
+
+.side-container .side-nav-bar .second-list li a img:hover{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 7px 7px 7px 7px;
+}
+
+.side-container .side-nav-bar .second-list li{
+    margin-left: 7px;
+}
+
+.side-container .side-nav-bar .second-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding-bottom: 12%;
+    border-bottom: 1px solid #0000002a;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+
+.side-nav-bar{
+    margin-top: 20%;
+}
+
+.side-nav-bar .first-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.side-nav-bar .first-list li:first-child{
+    border-top: 2px solid #fff;
+}
+
+
+.side-nav-bar .first-list li{
+    border-bottom: 2px solid #fff;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+.side-nav-bar .first-list li:hover{
+   color: rgb(161, 46, 94);
+   background-color: #fff;
+}
+
+.side-nav-bar .first-list li a:hover{
+    text-decoration: none;
+    color: rgb(161, 46, 94);
+}
+
+.copyright-class{
+    letter-spacing: 2px;
+}
+
+.main-bar{
+    padding-left: 27%;
+    padding-right: 8%;
+    margin-top: 4%;
+
+}
+
+.main-bar .section-one{
+    margin-bottom: 20%;
+}
+
+.header-one h3{
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+.header-one h3::after{
+   content: "";
+   position: absolute;
+   bottom: -15px;
+   height: 3px;
+   width: 10%;
+   left: 45%;
+   background-color: rgb(161, 46, 94);
+}
+
+
+.header-one p{
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content-content-one{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.content-content-one img{
+    height: 67%;
+    width: 50%;
+}
+
+.content-content-one .content-text{
+    margin-left: 13%;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.content-content-one .content-text h4{
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.content-content-one .content-text p{
+    padding-bottom: 15%;
+}
+
+.content-content-one .content-text button {
+   padding: 10px 10px 10px 10px;
+   border-radius: 3px;
+   border: 1px solid #fff;
+}
+
+.content-content-one .content-text button a{
+    font-size: 13px;
+    color: rgb(161, 46, 94);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.minor-hr{
+    border: 1px solid rgba(255, 254, 254, 0.192);
+    margin-bottom: 10%;
+}
+
+.content-content-two{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.content-content-two .content-text2{
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.content-content-two .content-text2 h4{
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.content-content-two .content-text2 p{
+    padding-bottom: 15%;
+}
+
+.content-content-two .content-text2 button {
+   padding: 10px 10px 10px 10px;
+   border-radius: 3px;
+   border: 1px solid #fff;
+}
+
+.content-content-two .content-text2 button a{
+    font-size: 13px;
+    color: rgb(161, 46, 94);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-content-two .img2{
+    height: 67%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.major-hr{
+    border: 2px solid rgba(255, 254, 254, 0.192);
+    margin-bottom: 15%;
+}
+
+.boxes-flexed h4{
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+.boxes-flexed img{
+    margin-bottom: 10%;
+}
+
+.boxes-flexed {
+    background-color: rgba(255, 255, 255, 0.103);
+    border: 2px solid rgba(255, 255, 255, 0.103);
+    box-sizing: border-box;
+    flex-basis: 40%;
+    margin-bottom: 10%;
+    padding: 5% 5% 5% 5%;
+}
+
+.boxes-flexed:hover {
+    background-color: rgba(255, 255, 255, 0.34);
+    border: 2px solid rgba(255, 255, 255, 0.34);
+    box-sizing: border-box;
+    flex-basis: 40%;
+    margin-bottom: 10%;
+    padding: 5% 5% 5% 5%;
+}
+
+.boxes-flexed:active {
+    background-color: rgba(255, 255, 255, 0.973);
+    border: 2px solid rgba(255, 255, 255, 0.952);
+    box-sizing: border-box;
+    flex-basis: 40%;
+    margin-bottom: 10%;
+    padding: 5% 5% 5% 5%;
+    color: black;
+}
+
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-two{
+    margin-bottom: 25%;
+}
+
+.my-works .work-img{
+    width: 47%;
+    height: 60%;
+    margin-bottom: 15%;
+    border-radius: 7px;
+}
+
+.my-works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-three{
+    margin-bottom: 25%;
+}
+
+.contact-fields{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40%;
+}
+
+.contact-fields input{
+    background-color: rgba(253, 252, 252, 0.027);
+    border: 2px solid rgba(192, 192, 192, 0.767);
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border-radius: 4px;
+   
+}
+
+.contact-fields .first-contact input{
+    width: 30%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+.contact-fields .input1{
+    width: 63.5%;
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+.contact-fields .input2{
+    width: 61.5%;
+    padding: 5% 1% 5% 1%;
+    margin-bottom: 5%;
+}
+
+.contact-fields a{
+    text-decoration: none;
+    color:rgb(161, 46, 94);
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+}

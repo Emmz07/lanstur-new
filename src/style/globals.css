@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+#clicks{
+    margin-right: 3%;
+}
+
+div #click1{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+div #click2{
+   background-color: rgba(0, 0, 0, 0.315); 
+   color: #000;
+}
+
+div #click2:hover{
+    background-color: rgba(177, 4, 140, 0.397);
+    color: black; 
+}
+
+#nav-bar{
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar:hover{
+    color: rgb(177, 4, 139);
+}
+
+#tainted h1 span{
+    color: rgb(177, 4, 139);
+}
+
+#top-right-signup{
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+} 
+
+#top-right-signup:hover{
+    background-color: #0000000c;
+} 
+
+#top-right-signin{
+    color: rgb(177, 4, 139);
+}
+
+#feature-div{
+    margin-top: 13%;
+}
+
+#hero-para{
+    font-size: 18px;
+}
+
+#contents:hover{
+    background-color: #00000056;
+    color: white;
+}
+
+
+#contents:active{
+    background-color: #000000;
+    color: white;
+}
+
+#content-button{
+    background-image: linear-gradient( blue, rgba(177, 4, 139,0.2));
+}
+
+#feature-side-container{
+    background-color:  white;
+}
+
+#feature-container{
+    background-image: linear-gradient( rgba(177, 4, 139,0.4), white);
+}
+
+#feature-icon-bg{
+    background-color: rgb(0, 0, 0);
+}
+
+#contact-button{
+    background-color:  rgb(177, 4, 139);
+}
+
+#footerlist-text{
+    color: rgb(177, 4, 139);
+}
+
+#footerlist-header{
+    color: rgb(131, 4, 103)
+}
+
+@media (max-width: 600px) {
+    #top-nav {
+      margin-top: 12%;
+    }
+}
+
+#news-head{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.popup{
+    display: none;
+}
+
+.show-modal{
+    display: block;
+}
+
+#popup-wrap{
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+#close{
+    background-color: rgb(201, 3, 158);
+    margin-bottom: 5%;
+}
