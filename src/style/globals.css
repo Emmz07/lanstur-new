@@ -118,35 +118,14 @@ div #click2:hover{
       display: none;
     }
 
-    #head-img{
-      margin-right: 70%;
-      width: 30%;
-      height: 30%;
-      display: flex;
-    }
-
-    #head-menu{
-    position: absolute;
-    top: 7.5%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    }
-
-    #head-menu:active{
-      background-color: #0000006e;
-      padding: 3px 3px;
-      border-radius: 4px;
-      transition: 2s;
-      }
+    
 
 }
 
 
 @media (min-width: 600px) {
   
-  #head-menu{
-    display: none;
-  }
+
 
 }
 
