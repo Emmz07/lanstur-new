@@ -110,24 +110,11 @@ div #click2:hover{
 }
 
 @media (max-width: 600px) {
-    #top-nav {
-      display: none;
-    }
-
-    #nav-bars{
-      display: none;
-    }
-
-    
 
 }
 
 
-@media (min-width: 600px) {
-  
 
-
-}
 
 #news-head{
     text-align: center;
@@ -222,4 +209,14 @@ div #click2:hover{
   margin-bottom: 5%;
   padding-left: 7.5%;
   padding-right: 7.5%;
+}
+
+#head-dead{
+  display: flex;
+  justify-content: space-between;
+}
+
+#head-menu{
+margin-top: 48px;
+margin-right: 20px;
 }
