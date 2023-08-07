@@ -240,23 +240,27 @@ margin-top: 48px;
 margin-right: 20px;
 }
 
-#menu-nav{
-
-
-  
-}
 
 #menu-wrapper{
   position: fixed;
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.856);
-  transform: translateX(70%);
+  transform: translateX(50%);
   transition: all 0.5 ease-in-out;
 }
 
+#menu-nav li{
+ font-size: 26px;
+}
+
 #menu-nav li:hover{
-  color: rgb(201, 3, 158);
+  color: rgb(245, 7, 193);
+}
+
+#menu-nav{
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 
@@ -267,5 +271,11 @@ margin-right: 20px;
 }
 
 #head-butt{
-  margin-top: 30%;
+  margin-top: 80%;
 }
+
+#menu-nav #home{
+  color: #e207d7;
+  font-size: 35px;
+}
+
