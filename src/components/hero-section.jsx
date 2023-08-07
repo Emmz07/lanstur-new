@@ -13,7 +13,7 @@ const HeroSection = () => {
         Introducting Lanstur, your trusted ally in the world of freelance services! With a committment to excellence and passion for delivering topnotch results.  
       </p>
       <div id='clicks' className="flex justify-center">
-        <a href=""><button id='click1' className="inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg">Get Started Now</button></a>
+        <a href=""><button id='click1' className="inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg">Join Us </button></a>
         <a href=""><button id='click2' className="ml-4 inline-flex text-black-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Sign In</button></a>
       </div>
     </div>
